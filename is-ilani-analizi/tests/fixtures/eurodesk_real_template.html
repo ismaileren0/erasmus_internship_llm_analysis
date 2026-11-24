@@ -1,0 +1,65 @@
+<div class="grid"><div data-role="card"><div data-role="title">Eurojust Traineeships</div></div></div>
+<template id="programme" data-hash="23217-eu">
+            <div id="modal" class="fixed top-0 left-0 w-full h-full z-20">
+                <div class="absolute top-0 left-0 w-full h-full bg-white opacity-75" onclick="closeProgram()"></div>
+                <div class="relative mx-auto p-4 w-full md:w-2/3 lg:w-2/5 max-w-3xl h-full">
+                    <div data-role="modal" data-color="green" class="w-full max-h-full overflow-y-auto rounded-xl overflow-hidden border">
+    <div data-role="header" class="p-4 relative flex justify-end gap-2 md:gap-8 border-b">
+        <img src="x.svg" alt="Icon" class="w-18 md:w-20 absolute left-4 top-4">
+        <label><select class="px-4" onchange="handleLanguageSelect(this)"><option value="" disabled selected hidden>Language</option><option value="23217-eu">EU</option><option value="23217-ro">RO</option></select></label>
+    </div>
+    <div data-role="hero" class="flex border-b">
+        <div class="flex-1"><img src="logo.png" alt="" loading="lazy" class="aspect-[3/1]"></div>
+        <div class="shrink-0 p-4 flex flex-col gap-4">
+                        <div class="flex items-center gap-4">
+                <img src="https://programmes.eurodesk.eu/build/assets/icon-clock-green-light-COJ6TUrg.svg" alt="Age" width="34px" height="34px">
+                <span class="text-lg font-bold uppercase">19/11/2026</span>
+            </div>
+                            <div class="contents">
+    <div class="flex justify-center" onclick="this.nextElementSibling.classList.remove('hidden')">
+        <span data-role="calendar-trigger" class="inline-block">Save in calendar</span>
+    </div>
+    <div class="hidden fixed"><div class="max-w-lg z-10"><div class="p-4 flex flex-col gap-4">
+        <div class="flex gap-4"><div class="flex-1 text-xl">Save this opportunity!</div><div class="w-24 h-12"><img src="calendar.png" alt="Icon"></div></div>
+        <div class="flex justify-between gap-2"><a data-calendar="calendar-google" class="flex-1 flex flex-col items-center gap-2 cursor-pointer"><img src="g.png" alt="Google"><span>Google Calendar</span></a></div>
+    </div></div></div>
+</div>
+                    </div>
+    </div>
+    <div data-role="additional" class="p-2 flex flex-col bg-white text-sm font-recursive italic border-b">
+        <span>
+            Category:
+            Working
+                            -
+                Internships
+                    </span>
+        <span>
+            This opportunity is available for:
+                        Young people
+        </span>
+    </div>
+    <div data-role="title" class="p-4 flex flex-col gap-2 border-b">
+        <div class="text-2xl font-bold uppercase">Eurojust Traineeships</div>
+        <div class="font-recursive">Paid traineeships at the European Union Agency for Criminal Justice Cooperation.</div>
+    </div>
+    <div data-role="body" class="p-4 bg-white font-recursive border-b">
+        <!-- Add styling to formatted elements -->
+        <style>
+            [data-role="body"] a { text-decoration: underline; }
+        </style>
+        <p><strong>Eurojust traineeships offer recent graduates a valuable opportunity.</strong></p><ul><li>Candidates with a very good knowledge of English (minimum B2 level);</li></ul><p><strong>Grant</strong></p><p>Monthly allowance of EUR 1500 and travel expenses covered.</p>
+                    <br>
+            <p><span class="font-bold">Opportunity offered by:</span><span>European Union Agency for Criminal Justice Cooperation</span></p>
+            </div>
+    <div data-role="footer" class="p-4 flex justify-between gap-2">
+        <div><a data-role="button" href="https://www.eurojust.europa.eu/about-us/jobs/traineeships" target="_blank" class="inline-block">Find out more</a></div>
+        <div class="contents"><div class="flex justify-center"><span data-role="button" class="px-2">Share</span></div></div>
+    </div>
+            <script>
+            const calendarData = addToCalendarData({ data: { title: 'Deadline: Eurojust Traineeships' } });
+            if (calendarData) { for (const [key, value] of Object.entries(calendarData)) { const template = document.createElement('template'); template.innerHTML = value; } }
+        </script>
+    </div>
+                </div>
+            </div>
+        </template>
