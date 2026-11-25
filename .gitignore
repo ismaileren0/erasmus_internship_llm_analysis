@@ -1,3 +1,10 @@
 venv/
 __pycache__/
 .pytest_cache/
+.env
+.claude/
+.agents/
+
+# Toplanan ilanlar, LLM önbelleği ve kişisel başvuru kayıtları
+data/
+outputs/
